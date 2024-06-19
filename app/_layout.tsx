@@ -14,6 +14,9 @@ export default function RootLayout() {
   const colorScheme = useColorScheme();
   const [loaded] = useFonts({
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
+    LatoRegular: require('../assets/fonts/LatoRegular.ttf'),
+    LatoBold: require('../assets/fonts/LatoBold.ttf'),
+    LatoLight: require('../assets/fonts/LatoLight.ttf'),
   });
 
   useEffect(() => {
