@@ -48,6 +48,7 @@ export default function CalendarWidget(props: CalendarProps) {
 const style = StyleSheet.create({
   calendar: {
     flex: 1,
+    backgroundColor: '#fff',
   },
   container: {
     flex: 1,
